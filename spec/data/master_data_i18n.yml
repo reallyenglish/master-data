@@ -1,0 +1,9 @@
+en:
+  activerecord:
+    attributes:
+      master_data_test:
+        not_available: N/A(Translated)
+        active: Active(Translated)
+        inactive: Inactive(Translated)
+        obsolete: Obsolete(Translated)
+
