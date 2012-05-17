@@ -1,7 +1,7 @@
 
 class MasterDataItem
   include Comparable
-  attr_accessor :key, :value, :order, :hidden, :label, :is?
+  attr_accessor :key, :value, :order, :hidden, :label
   
   def initialize(master, *args)
     @master, @order, options = master, master ? master.size : 0, {}
