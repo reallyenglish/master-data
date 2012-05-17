@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'rems-masterdata'
-  s.version     = '0.0.2'
+  s.version     = '0.0.3'
   s.date        = '2012-05-17'
   s.summary     = ""
   s.description = ""
