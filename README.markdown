@@ -11,3 +11,4 @@ If you're using ActiveRecord, you'll need to include this in `config/initializer
 ```
 require 'master_data/active_record'
 ```
+

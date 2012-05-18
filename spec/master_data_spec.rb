@@ -22,6 +22,23 @@ class MasterDataTest2 < MasterData
       
 end
 
+class Type < MasterData
+  include Singleton
+
+  def initialize
+    super
+    add_data :inside, "IN"
+    add_data :inside, "OUT"
+  end
+end
+
+class ParentData 
+  extend MasterDataParent
+
+  master_data :type
+  master_data :another_type, Type
+end
+
 describe MasterData do
 
   before(:each) do
@@ -240,4 +257,5 @@ describe MasterDataItem do
       @item.hidden.should be_true
     end
   end
+
 end
